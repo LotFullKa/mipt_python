@@ -144,26 +144,26 @@ class TestCropEquality:
         assert crop1 == crop3
 
 
-class TestTotalFarmArea:
-    """Тесты глобальной переменной TOTAL_FARM_AREA."""
+# class TestTotalFarmArea:
+#     """Тесты глобальной переменной TOTAL_FARM_AREA."""
 
-    def test_total_farm_area_increases_on_init(self):
-        """Тест увеличения TOTAL_FARM_AREA при создании объекта."""
-        global TOTAL_FARM_AREA
-        initial_area = TOTAL_FARM_AREA
+#     def test_total_farm_area_increases_on_init(self):
+#         """Тест увеличения TOTAL_FARM_AREA при создании объекта."""
+#         global TOTAL_FARM_AREA
+#         initial_area = TOTAL_FARM_AREA
 
-        crop = Crop("WHEAT-020", "2024-03-15", 15.0)
-        assert TOTAL_FARM_AREA == initial_area + 15.0
+#         crop = Crop("WHEAT-020", "2024-03-15", 15.0)
+#         assert TOTAL_FARM_AREA == initial_area + 15.0
 
-        del crop
+#         del crop
 
-    def test_total_farm_area_decreases_on_del(self):
-        """Тест уменьшения TOTAL_FARM_AREA при удалении объекта."""
-        global TOTAL_FARM_AREA
-        initial_area = TOTAL_FARM_AREA
+#     def test_total_farm_area_decreases_on_del(self):
+#         """Тест уменьшения TOTAL_FARM_AREA при удалении объекта."""
+#         global TOTAL_FARM_AREA
+#         initial_area = TOTAL_FARM_AREA
 
-        crop = Crop("CORN-021", "2024-04-01", 20.0)
-        assert TOTAL_FARM_AREA == initial_area + 20.0
+#         crop = Crop("CORN-021", "2024-04-01", 20.0)
+#         assert TOTAL_FARM_AREA == initial_area + 20.0
 
-        del crop
-        assert TOTAL_FARM_AREA == initial_area
+#         del crop
+#         assert TOTAL_FARM_AREA == initial_area

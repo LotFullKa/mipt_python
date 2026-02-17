@@ -9,7 +9,7 @@
 
 import pytest
 from src import Crop, GrowthStage, TOTAL_FARM_AREA
-
+from enum import Enum
 
 class TestGrowthStageEnum:
     """Тесты перечисления GrowthStage."""
