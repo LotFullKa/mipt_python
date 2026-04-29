@@ -19,6 +19,6 @@
 | Продва - 5  | Requests. BS4. | [Опция 1](https://github.com/jetminded/mipt_python/blob/main/hw-adv/hw05_opt1_requests_bs4.ipynb) [Опция 2](https://github.com/jetminded/mipt_python/blob/main/hw-adv/hw05_opt2_requests_bs4.ipynb)| 26.04.2026 |
 | Основа - 5  | Requests. BS4.  | [Ссылка](https://github.com/jetminded/mipt_python/blob/main/hw-base/hw05_parsing.ipynb) | 26.04.2026 |
 | Phys&Math - 5  | Итераторы. Генераторы. Контекстный менеджер. | [Ссылка](https://github.com/jetminded/mipt_python/blob/main/hw-physmath/hw05_iterator_context.ipynb) | 06.05.2026 |
-| Продва - 6  | TBA | TBA | TBA |
+| Продва - 6  | Асинхронность | [Ссылка](https://github.com/jetminded/mipt_python/blob/main/hw-adv/hw06_asynchrony.ipynb) | 10.05.2026 |
 | Основа - 6  | TBA | TBA | TBA |
 | Phys&Math - 6  | TBA | TBA | TBA |
